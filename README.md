@@ -165,6 +165,8 @@ The trace system includes built-in **assertion checks** -- for example, verifyin
 
 ### Install
 
+This is a **source-only TypeScript library** -- it ships `.ts` source files directly with no build step. It is designed to be consumed by a host project's own TypeScript/bundler toolchain.
+
 ```bash
 npm install @moyin/net-client
 ```
@@ -352,12 +354,7 @@ npm run typecheck  # TypeScript type checking
 
 This module is part of [**Moyin Factory**](https://github.com/AtsushiHarimoto/Moyin-Factory) -- a modular architecture for building production-grade TypeScript applications.
 
-```
-Moyin Factory
-  ├── @moyin/net-client      ← you are here
-  ├── @moyin/visual-novel    (Vue 3 visual novel engine)
-  └── ...more modules
-```
+This is a standalone, source-only TypeScript library with zero runtime dependencies.
 
 ---
 
@@ -439,7 +436,7 @@ const msg = resolveNetMessage('net.timeout', 'ja')
 
 ---
 
-# @moyin/net-client -- 繁體中文文檔
+# @moyin/net-client -- 繁體中文文件
 
 框架無關的 TypeScript HTTP 用戶端程式庫。支援請求去重、並行策略、重試策略和串流。
 

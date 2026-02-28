@@ -19,6 +19,7 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "license": "CC-BY-NC-4.0",
   "devDependencies": {
     "typescript": "^5.7.0",
     "vitest": "^3.0.0"
